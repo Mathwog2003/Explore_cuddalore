@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background-image: linear-gradient(to bottom,rgb(115, 238, 251),rgb(121, 60, 234));
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-top:4px solid black;
+    font-size: 30px;
+  }
+.con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 20px 10px;
+}
+.gallery{
+    border: 3px solid black;
+    border-radius: 13px;
+    background-color: white;
+    width:auto;
+    height: auto;
+}
+
+footer{
+    background-color: rgb(197, 205, 213);
+    padding:20px;
+    justify-content: center;
+}
+a{
+    color:#1a4dcc;
+    font-size: 25px;
+}
+footer div{
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+
+}
+a:hover{
+    color:rgb(183, 6, 183);
+}
+.gallery img{
+    width:100%;
+    height:auto;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 12px;
+}
+.disc{
+    color:black;
+    text-align: center;
+    font-family:Verdana, Genergb(121, 60, 234)va, Tahoma, sans-serif;
+    margin-bottom: 6px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+ .btn{
+    margin-left: 76px;
+    margin-bottom: 10px;
+    
+}
+button{
+	/* background-image:linear-gradient(to right,blue,rgb(76, 194, 234)); */
+    background-color:rgb(185, 163, 226);
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	border: 3px solid black;
+	font-weight: bold;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 7px 15px;
+	border-radius: 30px;
+	transition: .1s; 
+
+}
+button:hover{
+	background-color: rgb(255, 255, 255);
+	border: 4px solid #000000;
+	cursor: pointer;
+} 

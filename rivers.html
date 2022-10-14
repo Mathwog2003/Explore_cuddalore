@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        *{
+        box-sizing: border-box;
+
+    }
+    body {
+margin: 0;
+background-color:rgb(0, 0, 0);}
+sec{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 90px;
+max-width: 100%;
+margin: 30px auto;
+padding: 20px 10px;
+}
+.gallery{
+border : 2px solid rgb(0, 0, 0);   
+border-radius: 20px;
+background-color: rgb(255, 255, 255);
+width:450px;
+height: auto;
+}
+.gallery img{
+width:100%;
+height:auto;
+max-width: 500px;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+padding: 12px;
+
+
+}
+.def{
+text-align: center;
+justify-content: center;
+font-weight: bold;
+max-width: 200px;
+margin-left: 28%;
+margin-bottom: 4%;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    /* background-color: #0a0a23; */
+    background-image:linear-gradient(to bottom,rgb(74, 207, 207),rgb(87, 205, 212)) ;
+
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid black;
+
+  }
+p{
+    color:rgb(0, 0, 0);
+   font-weight: bold;
+    
+    text-align: center;
+    
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <h1> CUDDALORE Rivers</h1>
+      </header>
+ <sec>
+    <div class="gallery">
+        <img src="rivers/gedilam.jpeg" alt="rivers-pic">
+       <div class="def">Gedialm River</div>
+       <p>Location: Gedilam River Road, Semmandalam is a in Cuddalore City </p>
+   </div>
+   
+   <div class="gallery">
+    <img src="rivers/kollidam.jpg" alt="rivers-pic">
+   <div class="def"> Kollidam River</div>
+   <p>Location: Kattumannarkoil, Cuddalore district, Tamil Nadu, 608401</p>
+</div>
+<div class="gallery">
+    <img src="rivers/Thenpennai-River.jpg" alt="rivers-pic">
+   <div class="def"> Then Pennai River</div>
+   <p>Location: the eastern corner of the Cuddalore taluk</p>
+</div>
+<div class="gallery">
+    <img src="rivers/Vellar_River.jpg" alt="rivers-pic">
+   <div class="def"> Vellar River</div>
+   <p>Location: Kattumanarkoil Taluk of Cuddalore District</p>
+</div>
+<div class="gallery">
+    <img src="rivers/manimuthar.jpeg" alt="rivers-pic">
+   <div class="def">Manimuktha River </div>
+   <p>Location:Manimuthar River is located in Vriddhachalam Bazaar, Cuddalore</p>
+</div>
+   </sec>
+
+</body>
+</html>
