@@ -7,6 +7,7 @@ body {
     background-color: #000000;
 
 }
+
 .nav {
     height: 50px;
     width: 100%;
@@ -32,7 +33,7 @@ body {
   .nav > .nav-links {
     display: inline;
     float: right;
-    font-size: 18px;
+    font-size: 1px;
   }
   
   .nav > .nav-links > a {
@@ -48,6 +49,20 @@ body {
   
   .nav > #nav-check {
     display: none;
+  }
+  .abt{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  .abt div,p{
+    text-align: center;
+  }
+  .abt div{
+    font-size: 25px;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   @media (max-width:600px) {
@@ -125,6 +140,7 @@ body {
     display: inline;
     padding: 10px;
     color: rgb(255, 255, 255);
+    min-width: 40%;
     
    
   }
@@ -144,6 +160,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+   min-width:  70%;
 }
 
 .con{
@@ -153,6 +170,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 90px;
+    
     max-width: 100%;
     margin: 30px auto;
     padding: 20px 10px;
@@ -167,18 +185,21 @@ body {
 
 footer{
     background-color: rgb(197, 205, 213);
-    padding:20px;
+    padding:3px;
     justify-content: center;
 }
 a{
     color:#1a4dcc;
     font-size: 25px;
 }
-footer div{
-font-size: 20px;
-text-align: center;
-font-weight: bold;
+footer p{
 
+text-align: center;
+
+
+}
+.foot{
+    text-align: center;
 }
 footer a:hover{
     color:rgb(183, 6, 183);
@@ -213,94 +234,7 @@ button{
 	text-decoration: none;
 	border: 3px solid black;
 	font-weight: bold;
-   .nav {
-    height: 50px;
-    width: 100%;
-    background:linear-gradient(to bottom,rgb(115, 238, 251),rgb(121, 60, 234));;
-    position: relative;
-  }
-  
-  .nav > .nav-header {
-    display: inline;
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    padding: 10px 10px 10px 10px;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
-  .nav > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
-  }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #efefef;
-  }
-  
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-  
-  @media (max-width:600px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-btn > label > span {
-      display: block;linear-gradient(to bottom,rgb(115, 238, 251),rgb(121, 60, 234));
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: rgb(21, 21, 21);
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
-  } font-size: 15px;
+    font-size: 15px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	padding: 7px 15px;
 	border-radius: 30px;
